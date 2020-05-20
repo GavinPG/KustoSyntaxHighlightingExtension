@@ -1,4 +1,4 @@
-name: .NET Core
+name: Build VISX Package
 
 on:
   push:
@@ -12,7 +12,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: setup-msbuild
+
+    - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
+
     - name: Build
-      run: msbuild.exe
+      run: msbuild.exe -property:Configuration=Release
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: extension
+        path: bin\Release\*.visx

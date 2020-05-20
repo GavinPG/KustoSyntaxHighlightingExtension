@@ -60,6 +60,9 @@
     <Content Include="Grammars\kusto.plist">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include=".github\workflows\build.yml" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
