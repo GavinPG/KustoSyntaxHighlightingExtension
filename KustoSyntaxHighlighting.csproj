@@ -31,8 +31,8 @@
     <ProjectGuid>{1D78B7DE-F784-4F66-B319-A8DEDA34D6B8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KustoLanguageExtension</RootNamespace>
-    <AssemblyName>KustoLanguageExtension</AssemblyName>
+    <RootNamespace>KustoSyntaxHighlightingExtension</RootNamespace>
+    <AssemblyName>KustoSyntaxHighlightingExtension</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

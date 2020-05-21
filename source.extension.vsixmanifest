@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="KustoLanguageExtension.C468965A-381A-4FD9-9597-C8363C7154E6" Version="1.0" Language="en-US" Publisher="Gavin Gregson" />
-        <DisplayName>Kusto Language Extension</DisplayName>
-        <Description xml:space="preserve">Provides syntax highlighting for .csl and .kusto files using a slightly modified TextMate grammer from https://raw.githubusercontent.com/rosshamish/kuskus/master/kusto-syntax-highlighting/syntaxes/kusto.tmLanguage.</Description>
+        <Identity Id="KustoSyntaxHighlightinExtension.C468965A-381A-4FD9-9597-C8363C7154E6" Version="1.0" Language="en-US" Publisher="Gavin Gregson" />
+        <DisplayName>Kusto Syntax Highlighting</DisplayName>
+        <Description xml:space="preserve">Provides syntax highlighting for .csl and .kusto files using a slightly modified TextMate grammer from https://github.com/rosshamish/kuskus.</Description>
         <License>LICENSE</License>
         <Icon>Resources\Icon128x128.png</Icon>
         <PreviewImage>Resources\Icon128x128.png</PreviewImage>
